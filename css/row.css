@@ -1,0 +1,43 @@
+.row {
+    display: grid;
+    width: 100%;
+}
+
+.row+.row {
+    margin-top: 1.5rem;
+}
+
+.row-auto-auto {
+    grid-template-columns: repeat(2, 50%);
+}
+
+.row-fullheight {
+    height: 100%;
+}
+
+.col {
+    position: relative;
+}
+
+@media (max-width: 414px) {
+    .row-fullheight {
+        display: block;
+    }
+    
+    .row-fullheight > div.col {
+        display: none;
+    }
+
+    .button-row {
+        grid-template-columns: repeat(auto-fit, 4rem);
+        gap: 0.8rem;
+    }
+
+    .no-grid-mobile {
+        display: block;
+    }
+
+    .row+.row {
+        margin-top: 2rem;
+    }
+}

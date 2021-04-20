@@ -1,0 +1,32 @@
+form {
+    width: 100%;
+}
+
+form label {
+    color: var(--color-text-dark);
+}
+
+form input, form input:focus {
+    outline: none;
+    border: none;
+}
+
+form input {
+    background-color: var(--color-bg-bright);
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"] {
+    display: inline-block;
+    width: 100%;
+    height: var(--input-height);
+    border-radius: var(--border-radius);
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--color-outline2);
+}
+
+form input[type="checkbox"] {
+    margin-right: 0.5rem;
+}

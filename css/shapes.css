@@ -1,0 +1,41 @@
+#left-shape1 {
+    position: absolute;
+    left: -92px;
+    top: -116px;
+    width: 256px;
+    height: 256px;
+}
+
+#left-shape2 {
+    position: absolute;
+    left: -140px;
+    top: -156px;
+    width: 256px;
+    height: 256px
+}
+
+#right-shape1 {
+    position: absolute;
+    right: -60px;
+    bottom: -174px;
+    width: 256px;
+    height: 256px;
+    transform: rotate(20deg);
+}
+
+#right-shape2 {
+    position: absolute;
+    right: -112px;
+    bottom: -200px;
+    width: 256px;
+    height: 256px;
+    transform: rotate(30deg);
+    transform: skewY(180deg);
+}
+
+@media (max-width: 414px) {
+    #left-shape1, #left-shape2,
+    #right-shape1, #right-shape2 {
+        display: none;
+    }
+}

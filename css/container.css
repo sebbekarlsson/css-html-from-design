@@ -1,0 +1,11 @@
+.container {
+    padding: 2rem;
+    height: 100vh;
+    overflow: hidden;
+}
+
+@media (max-width: 414px) {
+    .container {
+        padding: 0px;
+    }
+}

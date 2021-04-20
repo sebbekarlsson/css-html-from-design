@@ -1,0 +1,16 @@
+h1+p {
+    margin-top: 0.7rem;
+}
+
+h1 {
+    color: var(--color-primary-dark);
+}
+
+p {
+    color: var(--color-text-dark);
+}
+
+a {
+    color: var(--color-primary-bright);
+    text-decoration: none;
+}

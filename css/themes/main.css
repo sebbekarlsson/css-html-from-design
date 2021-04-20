@@ -1,0 +1,14 @@
+:root {
+    --color-ultrabright: white;
+    --color-text: #8e94a0;
+    --color-text-dark: #727682;
+    --color-outline: #f1f2f4;
+    --color-outline2: #f3f4f8;
+    --color-primary-dark: #0f2556;
+    --color-primary-bright: #0961ff;
+    --color-bg-bright: #f8f9fd;
+
+    --border-radius: 0.5rem;
+
+    --input-height: 42px;
+}

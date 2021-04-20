@@ -1,0 +1,13 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pad-right {
+    padding-right: 0.5rem;
+}
+
+.pad-left {
+    padding-left: 0.5rem;
+}
